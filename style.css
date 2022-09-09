@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(245, 234, 217);
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 91px;
+    top: 0px;
+    
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+   top: 0px;
+   left: 0px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#logo img {
+    width: 90px;
+    height: auto;
+
+}
+
+#logo {
+
+    padding: 0px 50px;
+    height: 91px;
+}
+
+#navbar ul {
+    display: flex;
+    /*font-family: 'Aboreto', cursive;*/
+
+    font-family: 'Libre Baskerville', serif;
+
+    font-weight: lighter;
+}
+
+#navbar ul li {
+    list-style: none;
+    /* color: white;*/
+    font-size: 1.7rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    color: white;
+
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(160, 222, 233);
+    color: green;
+}
+
+#home {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    padding: 45px 300px;
+    
+
+}
+
+#home::before {
+    content: "";
+    background: url('C:/Users/Lenovo/Documents/WEB DEVLOPEMENT/img/bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 590px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.91;
+    top: 0px;
+    left: 0px;
+}
+
+#home h1 {
+    color: white;
+    text-emphasis: none;
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+}
+
+#home p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.6rem;
+    /* font-family: 'Aboreto', cursive;*/
+    font-family: 'Karla', sans-serif;
+    /*font-family: 'Libre Baskerville', serif;*/
+}
+#services{
+    display: flex;
+    margin: 34px;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 25px;
+    background-color: bisque;
+}
+#services .box img{
+    width:150px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#vip{
+    text-shadow: 3px 3px black;
+}
+.har{
+    text-shadow: 2px 2px black;
+}
+
+.h-primary {
+    font-size: 2.9rem;
+    padding: 12px;
+  
+}
+.h-secondary{
+    font: size 2rem;;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 6px;
+    margin: 12px 9px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    border: 3px solid white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+#client-section{
+         position: relative;
+         height: 475px;
+        width: 100%;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    height: 450px;
+    width: 100%;
+   height: 100%;
+    opacity: 0.69;
+    background-image: url('C:/Users/Lenovo/Documents/WEB DEVLOPEMENT/img/pastabg.jpg')  ;
+    
+    z-index: -1;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients img{
+    width: 350px;
+    height: auto;
+}
+.client-item{
+    padding: 60px;
+}
+
+#contact{
+    position: relative;
+    
+    margin: 160px 0px;
+    height: 853px;;
+   
+}
+#contact::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url('C:/Users/Lenovo/Documents/WEB DEVLOPEMENT/img/telephone.jpg')  ;
+    
+    opacity: 0.80;
+    z-index: -1;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    flex-direction: column;
+}
+
+#contact-box form{
+    width: 50%;
+}
+#contact-box label{
+    font-size: 1.8rem;
+    font-family: 'Aboreto', cursive ;
+    display: block;
+    font-weight: bold;
+    
+}
+#contact-box input{
+    padding: 8px 117px;
+    margin: 10px 0px;}
+#contact textarea{
+       width: 100%;
+       padding: 0.5rem;
+       border-radius: 11px;
+       font-size: 1.1rem;
+}
+.form-group{
+    margin: 3px 8px;
+    padding: 24px 20px;
+}
+.form-group ::placeholder{
+    font-family: 'Libre Baskerville', serif;
+    font-size: medium;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px 6px;
+    font-family:'Karla', sans-serif; ;
+}

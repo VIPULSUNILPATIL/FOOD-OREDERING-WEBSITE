@@ -1,0 +1,81 @@
+#navbar{
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 2px;
+}
+#navbar ul li a{
+    font-size: 1rem;
+}
+#home{
+     height: 280px;
+     flex-direction: column;
+     padding: 0px 0px;
+}
+#home::before{
+    height:415px;
+}
+#home p{
+    font-size: 13px;
+}
+#services{
+ flex-direction: column;
+}
+#services .box{
+
+}
+.clients{
+    overflow: hidden;
+   flex-wrap: wrap;
+}
+.clients img{
+    width: 200px;
+    height: auto;
+    padding: 6px;
+    
+}
+#mslogo{
+    height: 150px;
+    width: auto;
+}
+#client-section{
+    width: 100%;
+}
+.client-item{
+    padding:0px ;
+}
+.h-primary{
+    font-size: 25px;
+}
+.services-container{
+    margin-top: 25px;
+}
+#contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+#contact-box input {
+    padding: 8px 5px;
+    margin: 10px 0px;
+    text-align: center;
+    justify-content: center;
+    width: 250px;
+    
+    height: 31px;
+
+}
+#contact-box label{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+#contact-box ::placeholder{
+    font-size: 1.3rem;
+}
+.form-group{
+    text-align: center;
+    justify-content: center;
+}
